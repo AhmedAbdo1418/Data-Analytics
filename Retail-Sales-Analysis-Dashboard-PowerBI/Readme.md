@@ -1,4 +1,9 @@
 I developed this Sales Analysis Dashboard using Power BI to help management monitor sales performance and make data-driven decisions. I started by cleaning and transforming the data using Power Query, then designed a star schema data model. After that, I created DAX measures to calculate KPIs such as Total Sales, Total Cost, Number of Orders, Active Customers, and Best Sales Month. Finally, I built an interactive dashboard with slicers and visualizations to allow users to analyze sales trends across different years and business dimensions
+
+<img width="996" height="557" alt="1 Landing Page_Sales Dashboard" src="https://github.com/user-attachments/assets/0516d875-9b53-43d3-baee-02057c030e79" />
+"This is the landing Page, Press 'ctrl + Right click' on OverView Box"
+
+
 Using Power Query, I :
 
 Removed duplicates
@@ -8,18 +13,26 @@ Changed data types
 Standardized date formats
 Removed unnecessary columns
 Created Year and Month columns
-
 Improved data quality
+
+
+<img width="1089" height="627" alt="2 Sales Ananlysis Dashboard Main Page" src="https://github.com/user-attachments/assets/542ec910-67ff-4dd2-a20c-f3769a0de977" />
+"This the Main Report Page"
+
 I Also Calculated Some KPIs
 
 1.Total Sales = SUM(FactSales[Sales]) 
+
 2.Number of Users = DISTINCTCOUNT(DimCustomer[CustomerID])
+
 3.Total Cost = SUM(FactSales[Cost])
+
 4.Active Users= DISTINCTCOUNT(FactSales[CustomerID])
 
 5.Orders Number= COUNT(FactSales[OrderID])
 
 6.Best Month
+
 7.Sales by Month (Donut Chart)
 
 Shows each month's contribution to total sales.
@@ -55,6 +68,10 @@ Simple
 Executive-friendly
 Fast
 Easy to navigate
+
+<img width="947" height="561" alt="3 Sales Ananlysis Dashboard KPIs-1" src="https://github.com/user-attachments/assets/c8d73fea-6222-4a64-bcef-3e97826773f9" />
+
+"From this page, U can monitor KPIs"
 
 11.Business Insights
 
