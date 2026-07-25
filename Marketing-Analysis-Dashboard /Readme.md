@@ -177,7 +177,7 @@ Data-Analytics
 Clone the Repository:
 
 Bash
-git clone https://github.com/YourUsername/Digital-Marketing-PowerBI-Dashboard.git
+git clone [https://github.com/AhmedAbdo1418/Data-Analytics/tree/main/Marketing-Analysis-Dashboard.git]
 Download Microsoft Power BI Desktop (if not already installed).
 
 Open the Report: Navigate to src/ and open Marketing_Performance_Dashboard.pbix.
