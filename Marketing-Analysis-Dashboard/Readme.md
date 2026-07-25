@@ -98,7 +98,6 @@ DIVIDE(
 )
 Conversion Rate (CR):
 
-مقتطف الرمز
 Conversion Rate (CR) = 
 DIVIDE(
     [Total Conversions],
