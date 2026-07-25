@@ -1,6 +1,9 @@
 📊 Digital Marketing & E-Commerce Performance Dashboard
 An end-to-end Business Intelligence & Marketing Analytics Solution built using Power BI and DAX. This project models end-to-end digital campaign operations, multi-channel performance, product line transactions, and customer purchase behaviors to deliver executive-level profitability insights and channel-level optimization strategies.
 
+<img width="997" height="619" alt="Dashboard Screenshot" src="https://github.com/user-attachments/assets/c7a8703a-d84f-456b-a5f1-4ce2a68faacc" />
+
+
 
 
 📌 Executive Summary
@@ -37,6 +40,8 @@ To ensure optimal query performance, quick visualization rendering, and clean DA
                   ┌───────────┴───────────┐
                   │      Dim_Customer     │
                   └───────────────────────┘
+
+
 Key Tables & Schema Roles:
 Fact_Marketing_Sales: Contains core transactional granular data (Impressions, Clicks, Conversions, Revenue, Ad Spend, Quantities Sold, Unit Costs).
 
@@ -62,7 +67,6 @@ Total Budget / Ad Spend:
 Total Budget = SUM(Fact_Marketing_Sales[Ad_Spend])
 Profit:
 
-مقتطف الرمز
 Profit = [Total Revenue] - [Total Budget]
 Average ROI:
 
